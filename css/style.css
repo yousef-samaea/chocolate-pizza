@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500;600&display=swap");
+body {
+  width: 901px;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+header{
+  margin-top: 25px;
+  font-size: 13px;
+  font-family: "Cairo", sans-serif;
+}
+.logo {
+  float: left;
+}
+.header-right {
+  float: right;
+}
+
+.main-header {
+  height: 50px;
+}
+
+.beside-logo {
+  float: left;
+  margin-left: 5px;
+}
+.logo img {
+  float: left;
+}
+.beside-logo p {
+  margin-top: -8px;
+  margin-bottom: 0;
+  /* margin-left: 0; */
+}
+.beside-logo h3 {
+  font-family: "Yellowtail", cursive;
+  margin-top: -8px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  /* font-family: ; */
+}
+
+.hr {
+  background-image: url("../img/hr-img.png");
+  height: 20px;
+  background-repeat: repeat;
+}
+
+#chopped {
+  float: right;
+  margin-top: 30px;
+  margin-right: 21px;
+}
+.shift-right::first-line {
+  text-indent: 1.5em;
+}
+.shift-right{
+  font-family: "Times New Roman", serif;
+}
+
+.form {
+  position: absolute;
+  top: 1028px;
+  width: 85%;
+  font-size: 23px;
+  font-family: "Patrick Hand", cursive;
+}
+.right-form {
+  float: right;
+  width: 450px;
+  margin-right: 358px;
+  margin-top: 15px;
+}
+.left-form {
+  margin-left: 45px;
+  margin-top: 15px;
+  float: left;
+}
+.share {
+  float: right;
+  margin-top: 40px;
+  margin-right: 25px;
+}
+
+.left-bottom img {
+  float: left;
+}
+.auther{
+  height: 125px;
+}
+button{
+  background-color: rgb(189, 62, 62);
+  border-style: none;
+  color: white;
+  width: 150px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  word-spacing: 6px;
+}
+.left-line{
+  width: 435px;
+  height: 1px;
+  background-color: rgb(209, 204, 204);
+  float: left;
+  margin-top: 15px;
+}
+.right-line{
+  width: 435px;
+  height: 1px;
+  background-color: rgb(209, 204, 204);
+  float: right;
+  margin-top: 15px;
+}
+.center{
+  text-align: center;
+}
+main h2{
+  font-family: "Oswald", sans-serif;
+}
+h2 + p{
+  font-family: "Cairo", sans-serif;
+  margin-top: -25px;
+}
+footer{
+  font-family: "Lora", serif;
+  color: gray;
+}
+.print{
+  float: right;
+}
+
+
+.beside-logo2 {
+  float: left;
+  margin-left: 5px;
+  margin-top: -8px;
+  margin-bottom: 0;
+  font-family: "Lora", serif;
+}
+.beside-logo2 h3 {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 25px;}
+  .beside-logo2 p{
+    margin-bottom: 10px;
+    width: 542px;
+    color: rgb(71, 67, 67);
+  }
